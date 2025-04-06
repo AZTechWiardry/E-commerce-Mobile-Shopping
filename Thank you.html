@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thank you</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            overflow: hidden; 
+        }
+
+        center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: darkorange;
+            margin: 0;
+            animation: fadeInUp 2s ease-out;
+        }
+
+        #a {
+            color: white;
+            margin: 20px 0;
+            animation: fadeInUp 2s ease-out 0.5s;
+        }
+
+        #b {
+            color: green;
+            margin: 20px 0;
+            animation: fadeInUp 2s ease-out 1s;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Thank You</h1>
+        <br>
+        <h1 id="a">For Shopping from AA store</h1>
+        <br>
+        <h1 id="b">Made by ❤AA Brothers</h1>
+    </center>
+</body>
+</html>
